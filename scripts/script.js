@@ -134,7 +134,7 @@ function lancerJeu() {
         afficherResultat(score, i)
         inputEcriture.value = ''
         if (listeProposition[i] === undefined) {
-            afficherProposition("Le jeu est fini")
+            afficherProposition("Le jeu est fini !")
             btnValiderMot.disabled = true
         } else {
             afficherProposition(listeProposition[i])
